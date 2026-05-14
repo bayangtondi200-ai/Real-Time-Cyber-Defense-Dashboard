@@ -1,0 +1,48 @@
+# 🛡️ Real-Time Cyber Defense Dashboard
+
+👨‍💻 Author: BAYANG TONDI  
+🔐 Cybersecurity Engineer | SOC Analyst | Blue Team  
+
+---
+
+## 🚀 Overview
+
+Plateforme de détection d’intrusions en temps réel simulant un SOC moderne.
+
+👉 Analyse continue des logs + détection d’attaques + dashboard live
+
+---
+
+## ⚡ Features
+
+- 🔍 Détection temps réel (Brute Force / Port Scan)
+- 📡 Génération de logs simulés
+- 🌐 Dashboard web dynamique
+- 🚨 Alertes instantanées
+- ⚙️ Architecture modulaire
+
+---
+
+## 🛠️ Stack
+
+- Python
+- Flask
+- Cyber Threat Detection Logic
+
+---
+
+## 📊 Live Detection
+
+- Brute force attack detection
+- Port scanning detection
+- Real-time alert visualization
+
+---
+
+## 🚀 Run
+
+```bash
+git clone https://github.com/bayangtondi200-ai /cyber-defense-dashboard.git
+cd cyber-defense-dashboard
+pip install -r requirements.txt
+python app.py
