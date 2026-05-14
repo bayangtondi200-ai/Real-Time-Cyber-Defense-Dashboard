@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Defense Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🛡️ Cyber Defense Dashboard</h1>
+
+<div class="alerts">
+    {% for alert in alerts %}
+        <div class="alert">{{ alert }}</div>
+    {% endfor %}
+</div>
+
+<script>
+setTimeout(() => {
+    location.reload();
+}, 3000);
+</script>
+
+</body>
+</html>
